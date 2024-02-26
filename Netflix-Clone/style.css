@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+.main {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_small.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 644px;
+  position: relative;
+}
+
+.main .box {
+  height: 644px;
+  width: 100%;
+  opacity: 0.70;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  
+}
+nav {
+  max-width: 60vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  color: red;
+  width: 140px;
+  position: relative;
+  z-index: 10;
+  padding: 20px;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: calc(100% - 100px);
+  flex-direction: column;
+  position: relative;
+  gap: 23px;
+  padding:  0 30px;
+}
+
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.hero> :nth-child(2){
+    font-size: 24px; 
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 20px; 
+    font-weight: 400;
+    text-align: center;
+}
+
+  .seperation{
+  height: 7px;
+  background-color: rgb(41, 36, 36);
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(248, 243, 243, 0.021);
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+  border: 0cap;
+}
+
+ .btn-red-sm{
+  padding: 3px 8px;
+  font-weight: 300;
+  background-color: red;
+  color: white;
+  font-size: 10;
+  border-radius: 4px;
+  border: 0cap;
+ }
+
+.main input{
+  padding:7px 101px 8px 14px;
+  font-size: 20px;
+  background-color: rgba(23,23,23,0.2);
+  font-weight: 900;
+  border-radius: 4px;
+  border: 1px solid rgba(209, 200, 200, 0.5);
+  color: white;
+}
+
+.hero-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.secimage {
+  position: relative;
+}
+
+.secimage img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.secimage video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 555px;
+}
+
+section.first>div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+section.first>div :nth-child(1){
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+section.first>div :nth-child(2){
+  font-size: 24px;
+  
+}
+
+.faq h2{
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  padding: 34px;
+}
+
+.faqbox:hover{
+  background-color: rgb(22, 21, 21);
+}
+
+.faqbox{
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background-color: rgb(49, 43, 43);
+  padding: 14px;
+  font-size: 24px;
+  max-width: 60vw;
+  margin:  15px auto;
+  cursor: pointer;
+
+}
+
+footer{
+  padding: 30px;
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  gap: 20px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+footer .que{
+  padding: 32px 0px;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer-items{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
